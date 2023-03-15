@@ -1,0 +1,414 @@
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("./fonts/gilroy-regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: "Galien";
+    src: url("./fonts/galien/Galien\ Regular");
+    font-weight: normal;
+    font-style: normal;
+  }
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Gilroy-Regular';
+    font-style: normal;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container_main {
+    max-width: 940px;
+    margin: 0 auto;
+}
+/*styles for header*/
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+  
+    padding-top: 34px;
+}
+/*styles for main*/
+.main-top {
+    background-image: url(img/illustration.png);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 81%;
+    padding-bottom: 190px;
+}
+.main-top-bg {
+    background:  linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    padding-top:100px;
+}
+.main-title {
+    font-family: "Galien";
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 74px;
+    color: #1F3F68;
+    font-style: normal;
+    max-width: 523px;
+}
+.main-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    padding-top: 32px;
+    letter-spacing: 0.05em;
+    padding-bottom: 71px;
+    max-width: 425px;
+}
+.main-btn {
+    background-color: #5A98D0;
+    color: aliceblue;
+    border: 3px #5a98d0 solid;
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    transition-duration: 0.3s;
+}
+.main-btn:hover {
+    background-color:aliceblue;
+    color:#5A98D0;
+	text-decoration:none;
+}
+.main-img {
+    max-width: 594px
+}
+
+/*styles for benefits*/
+.benefits {
+    padding-top: 192px;
+    padding-bottom: 192px;
+}
+.benefits-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 97px;
+}
+.benefits-card_subtitle {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #316099
+}
+.benefits-card_item {
+    max-width: 380px;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 48px 48px 48px 48px;
+}
+.benefits-row_left {
+    display: flex;
+    flex-direction: column;
+    gap: 158px;
+}
+.benefits-row_right {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.benefits-card_img {
+    text-align: center;
+    padding-bottom: 56px;
+}
+.benefits-card_desc {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em; 
+    color: #1F3F68;
+}
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+.card-link {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+}
+.benefits-card-link {
+    display: flex;
+    align-items: center;
+}
+.img-arrow {
+    padding-left: 24px;
+}
+/*styles for projects*/
+.projects-description {
+    display: flex;
+    gap: 93px;
+    padding-bottom: 96px;
+}
+.projects-title {
+    font-size: 36px;
+    line-height: 46px;  
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+.projects-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+.projects-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+	padding-bottom: 50px;
+}
+.projects-card-top {
+    position: relative;
+}
+.project-card-bottom {
+    position: relative;
+}
+
+.project-img {
+    width: 100%;
+    transition-duration: 0.3s;
+}
+.projects-subtitle1 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    right: 76px;
+    top: 65px;
+}
+.projects-subtitle4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.8;
+    position: absolute;
+    right: 76px;
+    top: 110px;
+}
+.projects-subtitle2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    left: 38px;
+    top: 32px;
+}
+.projects-subtitle3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.8;
+    position: absolute;
+    left: 38px;
+    top: 76px;
+}
+
+/*styles for clients*/
+.clients {
+    padding-top: 192px;
+    padding-bottom: 125px;
+    background-color: #5A98D0;
+    border-radius: 200px 0px 0px 0px;
+}
+.clients-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 97px;
+    padding-bottom: 123px;
+}
+.clients-title {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.clients-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    max-width: 540px;
+}
+.clients-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+.clients-card_item {
+    width: 148px;
+    font-size: 20px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #F2F2F2;
+    padding: 41px 41px 41px 41px;
+    border-bottom: 1px solid #FFFFFF;
+}
+.bg-dark {
+    background: #1F3F68;
+    opacity: 0.2;
+}
+.clients-card_link {
+    font-size: 20px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.border-right {
+    border-right: 1px solid #FFFFFF;
+}
+
+/*styles for footer*/
+.bg-darkblue {
+    background: #316099;
+    border-radius: 0px 200px 0px 0px;
+    margin-right: 96px;
+}
+.footer {
+    background: #5A98D0;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff57;
+}
+.footer-wrap {
+    max-width: 460px;
+    padding-top: 91px;
+    padding-bottom: 96px;
+}
+.footer-title {
+    font-size: 36px;
+    line-height: 46px;  
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.footer-btn {
+    width: 240px;
+    height: 56px;
+    background: #5A98D0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    border: 1px #5A98D0 solid;
+    border-radius: 2px;
+    transition-duration: 0.3s;  
+    cursor: pointer;  
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.footer-btn:hover {             
+    background: #FFFFFF;      
+    color: #5A98D0;
+}
+.contacts-wrap {
+    display: flex;
+    align-items: center;
+}
+.footer-aside {
+    padding-top: 97px;
+    padding-bottom: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-subtitle {
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-left: 18px;
+}
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 299px;
+    padding-top: 32px;
+}
+.footer-list_item {
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.footer-caption {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF; 
+}
+.footer-info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 32px;
+}
+.info-list_item {
+    list-style: none;
+}
+.info-list_link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.footer-copyright {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    padding-bottom: 64px;
+    padding-top: 64px;
+}
